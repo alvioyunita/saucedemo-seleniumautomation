@@ -10,7 +10,7 @@ class CartPage:
 
     def open(self):
         self.driver.get("https://www.saucedemo.com/cart.html")
-        time.sleep(3)
+        time.sleep(2)
 
     def remove_light_on_cart(self):
         self.driver.find_element(*self.remove_light_button).click()

@@ -30,13 +30,13 @@ class InventoryPage:
 
     def remove_backpack_to_cart(self):
         self.driver.find_element(*self.remove_cart_button).click()
-        # time.sleep(2)
+        time.sleep(2)
     
     def add_light_to_cart(self):
         self.driver.find_element(*self.add_light_cart_button).click()
-        # time.sleep(2)   
+        time.sleep(2)   
 
     def add_tshirt_to_cart(self):
         self.driver.find_element(*self.add_tshirt_cart_button).click()
-        # time.sleep(2)      
+        time.sleep(2)      
 

@@ -30,4 +30,3 @@ class LoginPage:
         self.driver.find_element(*self.password_input).send_keys(password)
         time.sleep(1)
         self.driver.find_element(*self.login_button).click()
-        time.sleep(3)
